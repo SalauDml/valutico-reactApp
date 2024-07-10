@@ -10,3 +10,19 @@
     row-gap: 2.4rem;
     column-gap: 1.8rem;
 }
+
+@media screen and (max-width:850px) {
+    .partners{
+        padding: 2.4rem 0;
+    }
+
+    .partnersCtn{
+    margin: 0 auto;    
+    width: 100%;
+    display: grid ;
+    grid-template-columns: repeat(3,216px);
+    align-items: center;
+    justify-content: center;
+    }
+
+}

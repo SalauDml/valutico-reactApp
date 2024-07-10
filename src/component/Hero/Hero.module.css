@@ -32,3 +32,22 @@
     max-width: 126rem;
     align-self: center;
 }
+
+@media screen and (max-width:850px) {
+    .upperDiv{
+        gap: 4rem;
+    }
+    .upperDiv h1{
+        font-size: 40px;
+        width: 754px;
+        /* line-height: 64px; */
+    }
+    .upperDiv p{
+        font-size: 20px;
+        width: 754px;
+    }
+    .imgCtn{
+        width: 754px;
+        height: 382px;
+    }
+}
